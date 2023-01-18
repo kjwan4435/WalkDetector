@@ -14,6 +14,7 @@
 		F6A72A9C29781A1700A4BA64 /* walkDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A72A9B29781A1700A4BA64 /* walkDetectorTests.swift */; };
 		F6A72AA629781A1800A4BA64 /* walkDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A72AA529781A1800A4BA64 /* walkDetectorUITests.swift */; };
 		F6A72AA829781A1800A4BA64 /* walkDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A72AA729781A1800A4BA64 /* walkDetectorUITestsLaunchTests.swift */; };
+		F6A72AB529781ACD00A4BA64 /* walkDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A72AB429781ACD00A4BA64 /* walkDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		F6A72AA129781A1800A4BA64 /* walkDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walkDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A72AA529781A1800A4BA64 /* walkDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkDetectorUITests.swift; sourceTree = "<group>"; };
 		F6A72AA729781A1800A4BA64 /* walkDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6A72AB429781ACD00A4BA64 /* walkDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkDetector.swift; sourceTree = "<group>"; };
+		F6A72AB629781E0400A4BA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +98,13 @@
 		F6A72A8829781A1600A4BA64 /* walkDetector */ = {
 			isa = PBXGroup;
 			children = (
+				F6A72AB629781E0400A4BA64 /* Info.plist */,
 				F6A72A8929781A1600A4BA64 /* walkDetectorApp.swift */,
 				F6A72A8B29781A1600A4BA64 /* ContentView.swift */,
 				F6A72A8D29781A1700A4BA64 /* Assets.xcassets */,
 				F6A72A8F29781A1700A4BA64 /* walkDetector.entitlements */,
 				F6A72A9029781A1700A4BA64 /* Preview Content */,
+				F6A72AB429781ACD00A4BA64 /* walkDetector.swift */,
 			);
 			path = walkDetector;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A72A8C29781A1600A4BA64 /* ContentView.swift in Sources */,
+				F6A72AB529781ACD00A4BA64 /* walkDetector.swift in Sources */,
 				F6A72A8A29781A1600A4BA64 /* walkDetectorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +425,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = walkDetector/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +464,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = walkDetector/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
